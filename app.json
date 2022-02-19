@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "TripBooking",
+    "slug": "TripBooking",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "TripBooking"
+}
