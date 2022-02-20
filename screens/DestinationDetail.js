@@ -138,7 +138,7 @@ const DestinationDetail = ({ navigation }) => {
 
                     <View style={{ marginTop: SIZES.radius }}>
                         <Text style={{ color: COLORS.gray, ...FONTS.body3 }}>
-                            Ski Villa offers simple rooms with mountain views in front of the ski lift to the Ski Resort
+                        La 'Ski Villa' propose des chambres simples avec vue sur la montagne en face de la remontée mécanique de la station de ski 
                         </Text>
                     </View>
                 </View>
@@ -207,9 +207,9 @@ const DestinationDetail = ({ navigation }) => {
 
                 {/* About */}
                 <View style={{ marginTop: SIZES.padding, paddingHorizontal: SIZES.padding }}>
-                    <Text style={{ ...FONTS.h2 }}>About</Text>
+                    <Text style={{ ...FONTS.h2 }}>À propos</Text>
                     <Text style={{ marginTop: SIZES.radius, color: COLORS.gray, ...FONTS.body3 }}>
-                        Located at the Alps with an altitude of 1,702 meters. The ski area is the largest ski area in the world and is known as the best place to ski. Many other facilities, such as fitness center, sauna, steam room to star-rated restaurants.
+                    Situé dans les Alpes à une altitude de 1 702 mètres. Le domaine skiable est le plus grand domaine skiable du monde et est connu comme le meilleur endroit pour skier. De nombreuses autres installations, telles que centre de remise en forme, sauna, hammam, restaurants étoilés.
                     </Text>
                 </View>
             </View>
@@ -224,7 +224,7 @@ const DestinationDetail = ({ navigation }) => {
                 >
                     <View style={{ flex: 1, flexDirection: 'row', alignItems: 'center' }}>
                         <View style={{ flex: 1, marginHorizontal: SIZES.padding, justifyContent: 'center' }}>
-                            <Text style={{ ...FONTS.h1 }}>$1000</Text>
+                            <Text style={{ ...FONTS.h1 }}>1000€</Text>
                         </View>
 
                         <TouchableOpacity
@@ -237,7 +237,7 @@ const DestinationDetail = ({ navigation }) => {
                                 start={{ x: 0, y: 0 }}
                                 end={{ x: 1, y: 0 }}
                             >
-                                <Text style={{ color: COLORS.white, ...FONTS.h2 }}>BOOKING</Text>
+                                <Text style={{ color: COLORS.white, ...FONTS.h2 }}>réserver</Text>
                             </LinearGradient>
                         </TouchableOpacity>
                     </View>

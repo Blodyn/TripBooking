@@ -9,8 +9,9 @@ import {
     FlatList
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-
 import { images, icons, COLORS, FONTS, SIZES } from '../constants';
+
+
 
 const OptionItem = ({ bgColor, icon, label, onPress }) => {
     return (
@@ -47,28 +48,27 @@ const Home = ({ navigation }) => {
     const [destinations, setDestinations] = React.useState([
         {
             id: 0,
-            name: "Ski Villa",
+            name: "Villa de ski",
             img: images.skiVilla,
         },
         {
             id: 1,
-            name: "Climbing Hills",
+            name: "Escalade en montagne",
             img: images.climbingHills,
         },
         {
             id: 2,
-            name: "Frozen Hills",
+            name: "Montagne",
             img: images.frozenHills,
         },
         {
             id: 3,
-            name: "Beach",
+            name: "Plage",
             img: images.beach,
         },
     ]);
 
     // Render
-
     function renderDestinations(item, index) {
         var destinationStyle = {};
 
@@ -117,8 +117,8 @@ const Home = ({ navigation }) => {
                     <OptionItem
                         icon={icons.airplane}
                         bgColor={['#46aeff', '#5884ff']}
-                        label="Flight"
-                        onPress={() => { console.log("Flight") }}
+                        label="Vol"
+                        onPress={() => { console.log("Vol") }}
                     />
                     <OptionItem
                         icon={icons.train}
@@ -144,26 +144,26 @@ const Home = ({ navigation }) => {
                     <OptionItem
                         icon={icons.bed}
                         bgColor={['#ffc465', '#ff9c5f']}
-                        label="Hotel"
-                        onPress={() => { console.log("Hotel") }}
+                        label="Hôtel"
+                        onPress={() => { console.log("Hôtel") }}
                     />
                     <OptionItem
                         icon={icons.eat}
                         bgColor={['#7cf1fb', '#4ebefd']}
-                        label="Eats"
-                        onPress={() => { console.log("Eats") }}
+                        label="Restaurants"
+                        onPress={() => { console.log("Restaurants") }}
                     />
                     <OptionItem
                         icon={icons.compass}
                         bgColor={['#7be993', '#46caaf']}
-                        label="Adventure"
-                        onPress={() => { console.log("Adventure") }}
+                        label="Aventure"
+                        onPress={() => { console.log("Aventure") }}
                     />
                     <OptionItem
                         icon={icons.event}
                         bgColor={['#fca397', '#fc7b6c']}
-                        label="Event"
-                        onPress={() => { console.log("Event") }}
+                        label="Événement"
+                        onPress={() => { console.log("Événement") }}
                     />
                 </View>
             </View>
