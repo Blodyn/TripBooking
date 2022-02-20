@@ -45,7 +45,7 @@ const Onboarding = ({ navigation }) => {
                         start={{ x: 0, y: 0 }}
                         end={{ x: 1, y: 0 }}
                     >
-                        <Text style={{ color: COLORS.white, ...FONTS.h3 }}>Start !</Text>
+                        <Text style={{ color: COLORS.white, ...FONTS.h3 }}>Commencer !</Text>
                     </LinearGradient>
                 </TouchableOpacity>
             </View>
